@@ -84,14 +84,11 @@
 5. 上海宾通科技有限公司 - SLAM数据包回放工具 - 独立开发 - 202112- 202102
 
     * 采用jenkins+docker平台搭建的一款在线回放数据包的工具。
-
-    * 手动触发jenkins平台的相应slam功能任务，上传数据包及现场参数后，在docker中回放数据包并运行slam产品。通过novnc将docker中运行界面转到web上方便进行分析，并打包录屏、运行结果至jenkins运行结果，方便下载运行结果。
-
-    * 该工具后续进行通过jenkins-API编写单机客户端，自动录制并上传数据包触发回放任务，并将运行结果记录到数据
-
-      库。通过开源的dataease工具，搭建了AGV运行状态看板。
-
-    * 关键词：jenkins, slam, docker, mysql, dataease
+* 手动触发jenkins平台的相应slam功能任务，上传数据包及现场参数后，在docker中回放数据包并运行slam产品。通过novnc将docker中运行界面转到web上方便进行分析，并打包录屏、运行结果至jenkins运行结果，方便下载运行结果。
+    
+* 该工具后续进行通过jenkins-API编写单机客户端，自动录制并上传数据包触发回放任务，并将运行结果记录到数据库。通过开源的dataease工具，搭建了AGV运行状态看板。
+    
+* 关键词：jenkins, slam, docker, mysql, dataease
 6. 上海宾通科技有限公司 - TCP/串口开源客户端 - 独立开发 - 202110- 202102
 
     * 为公司slam产品编写客户端测试及示例代码
